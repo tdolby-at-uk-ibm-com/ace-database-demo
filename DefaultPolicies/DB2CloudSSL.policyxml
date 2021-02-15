@@ -21,6 +21,6 @@
     <securityIdentity>db2cloud</securityIdentity>
     <environmentParms>sslConnection=true</environmentParms>
     <jdbcProviderXASupport>true</jdbcProviderXASupport>
-    <useDeployedJars>false</useDeployedJars>
+    <useDeployedJars>true</useDeployedJars>
   </policy>
 </policies>
