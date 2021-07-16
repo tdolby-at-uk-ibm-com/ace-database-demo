@@ -5,7 +5,7 @@
     <databaseType>MySQL</databaseType>
     <databaseVersion>5.7</databaseVersion>
     <type4DriverClassName>com.mysql.jdbc.Driver</type4DriverClassName>
-    <type4DatasourceClassName>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</type4DatasourceClassName>
+    <type4DatasourceClassName>com.mysql.jdbc.jdbc2.optional.MysqlDataSource</type4DatasourceClassName>
     <connectionUrlFormat>jdbc:mysql://[serverName]:[portNumber]/[databaseName]?user=[user]&amp;password=[password]</connectionUrlFormat>
     <connectionUrlFormatAttr1></connectionUrlFormatAttr1>
     <connectionUrlFormatAttr2></connectionUrlFormatAttr2>
