@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="JDBCProviders" policyName="MySQLTest" policyTemplate="MySQL_57">
+    <databaseName>tempdb</databaseName>
+    <databaseType>MySQL</databaseType>
+    <databaseVersion>5.7</databaseVersion>
+    <type4DriverClassName>com.mysql.jdbc.Driver</type4DriverClassName>
+    <type4DatasourceClassName>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</type4DatasourceClassName>
+    <connectionUrlFormat>jdbc:mysql://[serverName]:[portNumber]/[databaseName]?user=[user]&amp;password=[password]</connectionUrlFormat>
+    <connectionUrlFormatAttr1></connectionUrlFormatAttr1>
+    <connectionUrlFormatAttr2></connectionUrlFormatAttr2>
+    <connectionUrlFormatAttr3></connectionUrlFormatAttr3>
+    <connectionUrlFormatAttr4></connectionUrlFormatAttr4>
+    <connectionUrlFormatAttr5></connectionUrlFormatAttr5>
+    <serverName>kenya.hursley.uk.ibm.com</serverName>
+    <portNumber>3306</portNumber>
+    <jarsURL>default_Path</jarsURL>
+    <databaseSchemaNames>useProvidedSchemaNames</databaseSchemaNames>
+    <description></description>
+    <maxConnectionPoolSize>0</maxConnectionPoolSize>
+    <securityIdentity>mysqlcreds</securityIdentity>
+    <environmentParms></environmentParms>
+    <jdbcProviderXASupport>false</jdbcProviderXASupport>
+    <useDeployedJars>true</useDeployedJars>
+  </policy>
+</policies>

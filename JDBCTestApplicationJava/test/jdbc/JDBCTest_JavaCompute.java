@@ -32,7 +32,7 @@ public class JDBCTest_JavaCompute extends MbJavaComputeNode {
 			// useful work. "Success" is determined by whether or not exceptions
 			// are thrown from any of the calls, and if none are thrown then is can
 			// be assumed that the SSL connection has worked.
-	        Connection conn = getJDBCType4Connection("DB2CloudSSL",
+	        Connection conn = getJDBCType4Connection("MySQLTest",
 	        										 JDBC_TransactionType.MB_TRANSACTION_AUTO);
 
 	        // Cut down example from https://github.com/ot4i/ace-demo-pipeline/blob/master/TeaSharedLibraryJava/com/ibm/ot4i/ace/pipeline/demo/tea/GetIndex_JavaCompute.java 
