@@ -1,6 +1,6 @@
 # ace-database-demo
 
-This demo shows the use of ACE v11 with DB2 on Cloud with SSL; it is experimental, and here as a guide to one approach to getting the two products working together, but is not officially supported by IBM. Use as inspiration only (or as a cautionary tale, depending on the outcome!).
+This demo shows the use of ACE v11 with mysql; it is experimental, and here as a guide to one approach to getting the two products working together, but is not officially supported by IBM. Use as inspiration only (or as a cautionary tale, depending on the outcome!).
 
 ## Contents
 
@@ -13,6 +13,7 @@ There are three applications designed to test various aspects of connectivity:
 
 The applications register HTTP endpoints of /jdbcTest, /odbcFromJavaTest, and /odbcTest respectively.
 
+Need the drivers from https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-8.0.25.tar.gz
 
 ## Building
 To customise this repo for use, simply update the DB2CloudSSL policy and db2dsdriver.cfg file to correct the hostname, rebuild the BAR, copy it into the docker/demo-container directory, and then build the two images.
